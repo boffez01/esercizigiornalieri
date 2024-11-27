@@ -1,0 +1,51 @@
+
+  
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#centro {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+ul {
+    list-style-position: inside;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#logo {
+    background-color: rgba(255, 223, 186, 0.8);
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center; 
+}
+
+#part2 p {
+    margin: 0;
+    color: brown; 
+}
+
+#part2 p:last-child {
+    color: rgb(20, 156, 149); 
+}
+#symple {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    width: 100%;
+}
+#focaccia {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    width: 100%;
+}
