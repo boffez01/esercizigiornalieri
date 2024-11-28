@@ -1,0 +1,218 @@
+/* IMPOSTAZIONI GENERALI */
+
+h1 {
+    font-size: 2.5rem; 
+    font-weight: 700; 
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 2rem; 
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem; 
+    font-weight: 400; 
+    margin-bottom: 10px;
+    line-height: 1.5; 
+  }
+
+  #tutto{
+    background-image: url('../img/sfondo.png');
+    background-repeat: repeat; 
+    background-position: center; 
+    background-attachment: fixed; 
+      
+  }
+  strong {
+    font-weight: bold; 
+  }
+  
+  
+
+/* HEADER */
+#logo {
+    
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-top: 0; 
+    padding-bottom: 0; 
+    background-color: rgb(18, 91, 144);
+    border-top-style: solid;
+    border-top-width: 3px;
+    margin: 20px;
+    border-top-color: blue;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#head {
+    color: white;
+}
+
+#logo p {
+    color: white;
+}
+
+#head a {
+    color: white;
+    text-align: center;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+/* MAIN */
+.articolo {
+   
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-top: 0; 
+    padding-bottom: 0; 
+    background-color: white;
+    border-top-style: solid;
+    border-top-width: 3px;
+    margin: 20px;
+    border: rgb(205, 205, 205) solid;
+    box-sizing: border-box;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+.author i {
+    margin: 5px;
+    color: grey;
+}
+
+.author {
+    color: grey;
+}
+
+.comuni {
+    color: blueviolet;
+}
+
+.riquadro {
+    display: inline-block;
+    border: 2px solid rgb(214, 214, 214);
+    background-color: rgb(189, 187, 187);
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.cose {
+    background-color: #044f96;
+    color: white;
+    text-align: left;
+}
+
+#tool a {
+    color: rgb(96, 196, 239);
+    text-align: center;
+}
+
+.video {
+    width: 90%;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    align-self: auto;
+    border: none;
+    display: block;
+    text-align: center;
+}
+
+/* TABELLE */
+.bianco {
+    background-color: white;
+    text-align: center;
+}
+
+.grigio {
+    background-color: rgba(203, 203, 203, 0.797);
+    text-align: center;
+}
+
+.tabella {
+   
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 0.0625em solid white;
+    padding: 0.625em;
+    text-align: center;
+    height: 2em;
+}
+
+/* FORM */
+#newsletter {
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-top: 0; 
+    padding-bottom: 0; 
+    background-color: rgb(174, 174, 174);
+    border-top-style: solid;
+    border-top-width: 3px;
+    margin: 20px;
+    border-top-color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* ELEMENTI NELL' ASIDE */
+.categoria i {
+    margin: 5px;
+    color: black;
+}
+
+.articoli {
+    
+    padding-left: 20px; /* Padding a sinistra */
+    padding-right: 20px; /* Padding a destra */
+    padding-top: 0; /* Nessun padding sopra */
+    padding-bottom: 0; /* Nessun padding sotto */
+    background-color: rgb(174, 174, 174);
+    border-top-style: solid;
+    border-top-width: 3px;
+    margin: 20px;
+    border-top-color: white;
+    box-sizing: border-box;
+}
+.aside i{
+    margin: 5px;
+    color: black;
+    align-items: end;
+
+}
+.aside{
+    text-align: right;
+}
+/* FOOTER */
+#finale{
+    width: 100%;
+    background-color: rgb(0, 45, 0);
+    color: white;
+    text-align: center;
+    border-top-style: solid;
+    border-top-width: 3px;
+    box-sizing: border-box;
+    
+}
+.viola
+{
+    text-decoration: violet;
+}
